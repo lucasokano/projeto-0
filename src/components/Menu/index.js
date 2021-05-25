@@ -1,16 +1,15 @@
 import React from 'react'
+import './index.css'
+
 
 const Menu = props => {
     return(
-        <nav>
+        <nav className="Menu">
             <ul>
-                <li></li>
-                <li></li>
+                <li><a href="www.google.com">Home</a></li>
+                <li><a href="www.google.com">About</a></li>
             </ul>
         </nav>
-
-
-
     )
  }
 
