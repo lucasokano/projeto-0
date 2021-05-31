@@ -1,7 +1,21 @@
 .App {
-    height: 100vh;
-
     display: flex;
+    flex-direction: column;
+}
 
+
+
+.App Menu-content{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
     background-color: aquamarine;
 } 
+
+.App Menu-content Menu{
+    width: 10vw;
+}
+
+.App Menu-content Content{
+    width: 90vw;
+}

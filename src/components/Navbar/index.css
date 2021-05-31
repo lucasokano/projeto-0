@@ -1,0 +1,30 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+      
+}
+
+.Nav ul {
+    flex:1;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.Nav li{
+    width: 40px;
+    flex: 1;  
+}
+
+.Nav li a {
+    padding: 10px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;    
+}
+
+.Nav li a:hover {
+    background-color: #6cbe45fa;
+}

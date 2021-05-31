@@ -4,6 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 
 import Home from '../../views/Home'
 import About from '../../views/About'
+import Imagem from '../../views/Imagem'
 
 const Content = props => {
     return(
@@ -16,10 +17,15 @@ const Content = props => {
                 <Route path="/About">
                     <About/>
                 </Route>
+
+                <Route path="/Imagem">
+                    <Imagem/>
+                </Route>
+
             </Switch>
         </div>
     )
     
  }
 
-export default Content;
+export default Content

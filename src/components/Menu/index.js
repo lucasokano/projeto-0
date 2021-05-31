@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
 
 const Menu = props => {
     return(
@@ -20,4 +20,4 @@ const Menu = props => {
     )
  }
 
-export default Menu;
+export default Menu

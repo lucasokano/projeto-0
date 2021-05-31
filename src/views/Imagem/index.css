@@ -1,0 +1,17 @@
+body svg{
+    background-color: #b5d3bf;
+    text-align: center;
+  }
+  
+  .linea{
+    fill: #e3be6e;
+  }
+  
+  .linea-alt,
+  .color-alt{
+    fill: #762748;
+  }
+  
+  .entrada{
+    fill:#331e30;
+  }
